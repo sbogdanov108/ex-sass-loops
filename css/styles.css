@@ -1,0 +1,52 @@
+.wrapper {
+  margin: 0 auto;
+  width: 740px; }
+  .wrapper > div {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: left;
+    margin: 0 10px 10px 0;
+    height: 90px;
+    width: 173px; }
+
+.wrapper > div:nth-child(1) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat 0px 0; }
+
+.wrapper > div:nth-child(2) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -173px 0; }
+
+.wrapper > div:nth-child(3) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -346px 0; }
+
+.wrapper > div:nth-child(4) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -519px 0; }
+
+.wrapper > div:nth-child(5) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -692px 0; }
+
+.wrapper > div:nth-child(6) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -865px 0; }
+
+.wrapper > div:nth-child(7) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -1038px 0; }
+
+.wrapper > div:nth-child(8) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -1211px 0; }
+
+.wrapper > div:nth-child(9) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -1384px 0; }
+
+.wrapper > div:nth-child(10) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -1557px 0; }
+
+.wrapper > div:nth-child(11) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -1730px 0; }
+
+.wrapper > div:nth-child(12) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -1903px 0; }
+
+.wrapper > div:nth-child(13) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -2076px 0; }
+
+.wrapper > div:nth-child(14) {
+  background: #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat -2249px 0; }

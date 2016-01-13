@@ -1,0 +1,25 @@
+.wrapper {
+  margin : 0 auto;
+  width  : 740px;
+
+  > div {
+    border        : 1px solid #ccc;
+    border-radius : 5px;
+    float         : left;
+    margin        : 0 10px 10px 0;
+    height        : 90px;
+    width         : 173px;
+  }
+}
+
+@for $i from 0 to 14 {
+
+  $step : -173px; // Шаг смещения по оси X для вывода изображения
+
+  .wrapper {
+    > div:nth-child(#{$i + 1}) {
+      // На каждой итерации цикла увеличиваем смещение вывода изображения, которое умнажаем на значение счетчика
+      background : #fff url("http://bogdanov-blog.ru/wp-content/themes/blogus/img/sprite.jpg") no-repeat ($step * $i) 0;
+    }
+  }
+}

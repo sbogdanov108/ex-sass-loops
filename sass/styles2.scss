@@ -1,0 +1,65 @@
+/* Общий стиль */
+
+.wrapper {
+  overflow: hidden;
+  margin : 0 auto;
+  width  : 1030px;
+
+  > div {
+    border        : 1px solid #ccc;
+    border-radius : 5px;
+    box-sizing: border-box;
+    float         : left;
+    margin        : 0 10px 10px 0;
+    height        : 233px;
+    width         : 333px;
+  }
+}
+
+/* Each Loop - часть 1 */
+
+$colors: LightGreen, Magenta, Tomato, Tan, GoldenRod, OliveDrab, LightSeaGreen, DeepSkyBlue, Linen;
+
+@each $color in $colors {
+  .#{$color}-bg {
+    background : $color;
+  }
+}
+
+/* Each Loop - часть 2 */
+
+@each $animal, $color-border, $cursor in
+        (puma, LightGreen, default),
+        (sea-slug, Tan, pointer),
+        (egret, DeepSkyBlue, move)
+{
+  .wrapper .#{$animal}-block {
+    background-image : url('../images/#{$animal}-cr.jpg');
+    border           : 5px solid $color-border;
+    cursor           : $cursor;
+  }
+}
+
+/* Each Loop - часть 3 */
+
+@each $header, $size in
+        (h1: 24px, h2: 20px, h3: 18px)
+{
+  #{$header} {
+    font-size : $size;
+  }
+}
+
+/* While Loop */
+
+$i : 100;
+@while $i > 0 {
+
+  .item-#{$i} {
+    background: adjust-hue(#00BFFF, $i);
+    height: #{$i}px;
+    width : $i * 2px;
+  }
+
+  $i : $i - 25;
+}

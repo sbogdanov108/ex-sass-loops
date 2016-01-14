@@ -8,7 +8,7 @@ var gulp         = require( 'gulp' ),
 
 gulp.task( 'sass', function()
 {
-  gulp.src( 'sass/styles.scss' )
+  gulp.src( 'sass/*.scss' )
     .pipe( sass().on( 'error', notify.onError(
       {
         message: "<%= error.message %>",

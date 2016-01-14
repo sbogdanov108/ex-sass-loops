@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* Общий стиль */
+.wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1030px; }
+  .wrapper > div {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 10px 10px 0;
+    height: 233px;
+    width: 333px; }
+
+/* Each Loop - часть 1 */
+.LightGreen-bg {
+  background: LightGreen; }
+
+.Magenta-bg {
+  background: Magenta; }
+
+.Tomato-bg {
+  background: Tomato; }
+
+.Tan-bg {
+  background: Tan; }
+
+.GoldenRod-bg {
+  background: GoldenRod; }
+
+.OliveDrab-bg {
+  background: OliveDrab; }
+
+.LightSeaGreen-bg {
+  background: LightSeaGreen; }
+
+.DeepSkyBlue-bg {
+  background: DeepSkyBlue; }
+
+.Linen-bg {
+  background: Linen; }
+
+/* Each Loop - часть 2 */
+.wrapper .puma-block {
+  background-image: url("../images/puma-cr.jpg");
+  border: 5px solid LightGreen;
+  cursor: default; }
+
+.wrapper .sea-slug-block {
+  background-image: url("../images/sea-slug-cr.jpg");
+  border: 5px solid Tan;
+  cursor: pointer; }
+
+.wrapper .egret-block {
+  background-image: url("../images/egret-cr.jpg");
+  border: 5px solid DeepSkyBlue;
+  cursor: move; }
+
+/* Each Loop - часть 3 */
+h1 {
+  font-size: 24px; }
+
+h2 {
+  font-size: 20px; }
+
+h3 {
+  font-size: 18px; }
+
+/* While Loop */
+.item-100 {
+  background: #ea00ff;
+  height: 100px;
+  width: 200px; }
+
+.item-75 {
+  background: #8000ff;
+  height: 75px;
+  width: 150px; }
+
+.item-50 {
+  background: #1600ff;
+  height: 50px;
+  width: 100px; }
+
+.item-25 {
+  background: #0055ff;
+  height: 25px;
+  width: 50px; }
